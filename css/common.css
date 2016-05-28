@@ -1,0 +1,17 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, input, button, dl, dt, dd, ul, ol, li {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
